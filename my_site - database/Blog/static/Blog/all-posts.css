@@ -1,0 +1,46 @@
+#main-navigation {
+    background-color: #618f61;
+}
+
+#main-navigation a{
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: currentColor;
+    margin-block: 5%;
+}
+    
+ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+    gap: 3%;
+    
+}
+    
+
+.posts img {
+    width: 51%;
+    height: 145px;
+    margin-left: 24%;
+    border: 1px solid;
+}
+
+#all-posts{
+    margin-left: 10%;
+    margin-bottom: 5%;
+    width: 82%;
+}
+
+/* .posts a {
+    height: 22rem;
+    transform-origin: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    background-color: white;
+} */

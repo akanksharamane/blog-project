@@ -1,0 +1,54 @@
+ h2{
+    text-align: center;
+    font-size: xx-large;
+    background: blanchedalmond;
+    padding-block: 1%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+h3{
+    
+        margin-top: -2%;
+        padding-bottom: 78%;
+}
+
+#post_content img{
+    width: 19%;
+    height: 149px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8%;
+}
+
+/* main {display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 100%;
+    font-weight: 500;
+    text-align: justify;
+    width: 56%;
+    margin-left: 40%;
+    margin-top: -29%;
+} */
+
+main {
+    margin-left: 38%;
+    margin-top: -188px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    width: 46%;
+}
+
+article{
+    margin-left: 22%;
+
+}
+p{
+    display:inline-block
+}
+
+#post_detail{
+    background: #ebe6e6;
+}

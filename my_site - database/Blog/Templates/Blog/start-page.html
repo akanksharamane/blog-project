@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block page_title %} 
+    Blog
+{% endblock %}
+
+{% block css_files %}
+    <link rel="stylesheet" href="{% static "Blog/start-page.css" %}" />
+{% endblock %}
+
+
+{% block content %}
+
+<section id="intro">
+    <header>
+        <img src="{% static "Blog/images/logo.jfif" %}" alt="Iexcel Foundation"/>
+        <h1>Iexcel Foundation Blog</h1>
+    </header>
+    <p>Hi,this is Iexcel community and we blog about underprivilaged communities</p>
+</section>
+
+<section id="latest-post">
+    <h2>Our Latest Posts</h2>
+    <ul>
+        {% for post in posts %}
+        {% include "Blog/includes/post.html" %}
+        {% endfor %}
+    </ul>
+</section>
+
+<section id="about">
+    <h2>What We Do</h2>
+    <p>IEXCEL COMMUNITY FOUNDATION creates a platform for underprivileged communities through thought process development,
+       skill building, employment and entrepreneurship opportunities pan India.</p>
+    {% comment %} <p>We at iExcel community foundation believe that every individual should have access to platform where they can acquire new skills and knowledge 
+       in order to create sustainable livelihood opportunities for themselves which will ultimately lead to our larger vision of economic development of India. </p> {% endcomment %}
+    
+</section>
+
+{% endblock %}
+   
